@@ -1,14 +1,8 @@
 # Next.js Headless WordPress Getting Started Example
 
-## Setup
+Please use the `NEXT_PUBLIC_WORDPRESS_URL=https://headlessfw.wpengine.com` in the env.local file
 
-See the [setup steps](https://github.com/wpengine/faustjs#quick-start).
+Then run navigate to `http://localhost:3000/about`
 
-## Run it
-
-```bash
-npm install
-npm run dev
-```
-
-[http://localhost:3000]()
+In this component - there is an issue with the $on.
+`src/components/TestOnQuery.tsx`
